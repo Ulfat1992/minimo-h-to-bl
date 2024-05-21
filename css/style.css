@@ -1,0 +1,114 @@
+/*common start*/  
+body{
+	font-family: "playfair display", serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*common end*/ 
+   /*header start*/
+   header{
+   	/*border-bottom: 2px solid #b4ad9e*/;
+   	padding: 30px 0;
+   }
+   .container{
+   	overflow: hidden;
+   	margin: 0 auto;
+   	width: 90%;
+   }
+   .logo{
+   	margin-top: 10px;
+   	width:12% ;
+   	float:left ;
+   }
+   .logo img{
+   	width: 100%;
+   }
+   .menu{
+   	width:61% ;
+   	float: right;
+   }
+   .menu ul{}
+   .menu ul li{
+   	list-style: none;
+   	float: left;
+   }
+   .menu ul li a{
+   	display: inline-block;
+   	margin:0 55px ;
+   	color:  #626262;
+   	text-decoration: none;
+   	text-transform: uppercase; 
+   	border-bottom: 1px solid transparent;
+   	transition:.33s linear ;
+   	
+   }
+   .menu ul li:last-child a{
+   	margin-right: 0;
+   } 
+   .menu ul li a:hover{
+   	border-bottom: 1px solid #b4ad9e;
+   }
+/*header end*/
+/*banner start*/
+.banner{}
+.b_img{}
+.b_img img{
+   width: 100%;
+}
+/*banner end*/
+/*getaway start*/
+.getaway{
+   padding: 100px 0;
+}
+.container2{
+   width: 80%;
+   margin: 0 auto;
+}
+.g_contant{}
+.light{
+   font-family: ubuntu, sans-serif;
+   font-weight: 300;
+   font-size: 14px;
+   text-transform: uppercase;
+   color:  #b4ad9e;
+}
+.title{
+   margin: 20px 0 30px;
+   font-size: 30px;
+   font-weight: 400;
+
+}
+.text{
+   margin: 0;
+   line-height: 23px;
+} 
+.g_link{ 
+   display: inline-block;
+    margin-top: 40px;  
+   text-decoration: none; 
+   color: #b4ad9e;
+}
+/*getaway end*/
+/*blog start*/
+.blog{
+   padding: 0 0 100px;
+}
+.bl_contant{
+   overflow: hidden;
+}
+.bl_item{
+   width: 47%;
+   float: left;
+}
+.bl_item:nth-child(even){
+   margin-left: 6%;
+   box-sizing: border-box;
+}
+.bl_img{
+   margin-bottom: 20px;
+}
+.bl_img img{
+   width: 100%;
+}
+/*blog end*/
